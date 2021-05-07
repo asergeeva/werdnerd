@@ -67,7 +67,7 @@ a:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  font-family: times;
+  	font-family: times;
 		  }
 
 .werd form input {
@@ -133,7 +133,7 @@ a:hover {
       }
 
 footer {
-  padding: 15%;
+  padding: 25%;
   color: black;
 }
 
@@ -179,6 +179,17 @@ body {
 p{
   font-size: 15px;
   line-height:25px; 
+}
+
+footer {
+  padding: 25%;
+  color: black;
+}
+	
+nav {
+  font-size: 12px;
+  text-align: center;
+  padding: 25%;
 }
 
 .werdnerd li {
