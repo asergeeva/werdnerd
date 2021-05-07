@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+		<title>{{werdname}}</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     </head>
+	<body>
+
+    <div class="another">
+    <p>the etymology of {{werdname}} was not found.</p>
+    <p>try another werd.</p>
+   
+    <form method="GET" action="/werd">
+		<input type="text" placeholder="type a werd" name="werdname"></input>
+			<input type="submit" value="nerd"></input>
+  	</form>
+    </div>
+
+	</body>
+
+  <footer>
+    <nav class="werdnerd">
+    <ul>
+        <li class="werdnerd"><a href="/about">about</a></li>  
+    </ul>
+    </nav>
+  </footer>
+
+</html>

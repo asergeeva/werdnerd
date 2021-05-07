@@ -1,0 +1,195 @@
+
+/* css stylesheet */
+/* design & code by anna borisovna sergeeva */
+
+body {
+  overflow-y: none;
+  text-align: left;
+  margin: 100px;
+  letter-spacing: .5px;
+  font-family: times;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 50px;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.home form {
+	margin: 100px auto;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  font-family: times;
+		}
+
+.home	form input {
+	font-size: 28px;
+	margin-top: 20px;
+  font-family: times;
+		}
+
+.werd {
+  margin: 25px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-family: times;
+      }
+
+.werd p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: times;
+      }
+
+.werd form {
+	margin: 25px auto;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  font-family: times;
+		  }
+
+.werd form input {
+	font-size: 20px;
+	margin-top: 20px;
+  font-family: times;
+		  }
+
+.another {
+  margin: 25px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-family: times;
+      }
+
+.another p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: times;
+      }
+
+.another form {
+	margin: 25px auto;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  font-family: times;
+		  }
+
+.another form input {
+	font-size: 20px;
+	margin-top: 20px;
+  font-family: times;
+		  }
+
+.dream {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about {
+  margin: 25px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-family: times;
+      }
+
+.about p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: times;
+      }
+
+footer {
+  padding: 15%;
+  color: black;
+}
+
+footer a {
+  color: black;
+}
+
+nav {
+  font-size: 12px;
+  text-align: center;
+}
+
+.werdnerd ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.werdnderd li {
+  text-align: center;
+  line-height: 2.5em;
+  color: black;
+}
+
+/* images */
+
+.dream img {
+  width: 300px;
+  height: inherit;
+  margin: auto;
+}
+
+/* smartphones (portrait) ----------- */
+@media only screen and (max-width : 400px) {
+
+body {
+  overflow-y: none;
+  text-align: left;
+  margin: 50px;
+  letter-spacing: .5px;
+  font-family: times;
+}
+
+p{
+  font-size: 15px;
+  line-height:25px; 
+}
+
+.werdnerd li {
+  text-align: center;
+  line-height: 3em;
+}
+
+.dream img {
+  width: 250px;
+  height: inherit;
+  margin: auto;
+}
+	
+}
