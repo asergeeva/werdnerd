@@ -18,9 +18,9 @@ app = Flask(__name__)
 def index():
   return render_template('index.html')
 
-@app.route('/404.html')
-def error_page():
-  return render_template('404.html')
+# @app.route('/404.html')
+# def error_page():
+#   return render_template('404.html')
 
 @app.route('/about')
 def about():
