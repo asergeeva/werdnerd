@@ -109,11 +109,7 @@ a:hover {
   font-family: times;
 		  }
 
-.dream {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
 
 .about {
   margin: 25px auto;
@@ -127,6 +123,23 @@ a:hover {
       }
 
 .about p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: times;
+      }
+
+.etumos {
+  margin: 25px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-family: times;
+      }
+
+.etumos p {
   font-size: 20px;
   margin-top: 10px;
   font-family: times;
@@ -155,14 +168,6 @@ nav {
   text-align: center;
   line-height: 2.5em;
   color: black;
-}
-
-/* images */
-
-.dream img {
-  width: 300px;
-  height: inherit;
-  margin: auto;
 }
 
 /* smartphones (portrait) ----------- */
@@ -197,10 +202,5 @@ nav {
   line-height: 3em;
 }
 
-.dream img {
-  width: 250px;
-  height: inherit;
-  margin: auto;
-}
 	
 }
